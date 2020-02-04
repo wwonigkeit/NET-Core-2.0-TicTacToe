@@ -43,6 +43,9 @@
         },
         "adminPassword": {
             "type": "secureString"
+        },
+        "templateName": {
+            "type": "string"
         }
     },
     "variables": {
@@ -111,7 +114,9 @@
                         }
                     },
                     "imageReference": {
-                        "id": "/subscriptions/40eb3cb3-a114-4cd1-b584-5bbedd2126a2/resourceGroups/vorteil-demo/providers/Microsoft.Compute/images/tictactoe"
+                        "id": [
+                            "[concat('/subscriptions/40eb3cb3-a114-4cd1-b584-5bbedd2126a2/resourceGroups/vorteil-demo/providers/Microsoft.Compute/images/', parameters('templateName'))]"
+                    ]
                     }
                 },
                 "networkProfile": {
