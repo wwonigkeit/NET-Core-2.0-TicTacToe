@@ -18,7 +18,15 @@
   name = ".NET Core"
   author = "microsoft"
   summary = ".NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. .NET Core runs on Linux"
-  description = "# .NET Core Test Application"
+  description = """# .NET Core TicTacToe demo application
+  
+  ## How to play the game
+  
+  * The above link would take you to Register page. Register with your name and display image (size should be less than 1 MB) that you wish to use for playing instead of X or O icon, and click Register button.
+  
+  * Upon registration, user would be navigated to the "Find Opponent Player" screen, to find an opponent player, against which you can play. Click on the button to find if you have any opponent player. If you don't find anyone, ask your friend to register and find opponent player. Both of you, should now be able to play a game of tic-tac-toe. Enjoy the game!
+  
+  """
   url = "https://www.microsoft.com/net/"
   version = "21.0"
 
