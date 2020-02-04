@@ -114,9 +114,7 @@
                         }
                     },
                     "imageReference": {
-                        "id": [
-                            "[concat('/subscriptions/40eb3cb3-a114-4cd1-b584-5bbedd2126a2/resourceGroups/vorteil-demo/providers/Microsoft.Compute/images/', parameters('templateName'))]"
-                    ]
+                        "id": "[concat('/subscriptions/40eb3cb3-a114-4cd1-b584-5bbedd2126a2/resourceGroups/vorteil-demo/providers/Microsoft.Compute/images/', parameters('templateName'))]"
                     }
                 },
                 "networkProfile": {
