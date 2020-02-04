@@ -43,6 +43,9 @@
         },
         "adminPassword": {
             "value": "F@k3P@ssw0rd"
+        },
+        "templateName": {
+            "value": "appname"
         }
     }
 }
