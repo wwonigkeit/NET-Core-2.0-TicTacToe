@@ -1,5 +1,6 @@
 [[program]]
   binary = "/TicTacToeGame"
+  env = ["ASPNETCORE_URLS=http://0.0.0.0:8080", "COMPlus_EnableDiagnostics=0"]
   args = ""
 
 [[network]]
