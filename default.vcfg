@@ -5,7 +5,7 @@
 
 [[network]]
   ip = "dhcp"
-  http = ["80", "443", "8008"]
+  http = ["80", "443", "8008", "5000"]
 
 [system]
   disk-cache = "40 MiB"
