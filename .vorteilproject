@@ -2,5 +2,5 @@ ignore = [".vorteilproject"]
 
 [[target]]
   name = "default"
-  vcfgs = ["default.vcfg"]
+  vcfgs = ["tictactoe.vcfg"]
   icon = "default.png"
