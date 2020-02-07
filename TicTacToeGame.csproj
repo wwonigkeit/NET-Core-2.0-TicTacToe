@@ -14,7 +14,7 @@
   </ItemGroup>
   
   <ItemGroup>
-     <None Include="default.vcfg" CopyToPublishDirectory="Always" /> 
+     <None Include="tictactoe.vcfg" CopyToPublishDirectory="Always" /> 
      <None Include=".vorteilproject" CopyToPublishDirectory="Always" />
   </ItemGroup>
 
