@@ -35,4 +35,4 @@
   ram = "512 MiB"
   inodes = 10000
   kernel = "20.1.2"
-  disk-size = "+200 MiB"
+  disk-size = "+100 MiB"
