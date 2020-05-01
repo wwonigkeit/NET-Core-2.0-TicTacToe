@@ -32,7 +32,7 @@
 
 [vm]
   cpus = 1
-  ram = "512 MiB"
+  ram = "1024 MiB"
   inodes = 10000
   kernel = "20.3.1"
   disk-size = "+100 MiB"
