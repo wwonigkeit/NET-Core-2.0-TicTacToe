@@ -4,8 +4,8 @@
   args = ""
 
 [[logging]]
-     config = ["Name=tcp", "Host=35.201.9.144", "Port=3000", "Format=json"]
-     type = "system"
+  config = ["Name=tcp", "Host=35.201.9.144", "Port=3000", "Format=json"]
+  type = "system"
 
 [system]
   disk-cache = "40 MiB"
@@ -32,7 +32,5 @@
 
 [vm]
   cpus = 1
-  ram = "1024 MiB"
-  inodes = 10000
-  kernel = "20.3.1"
-  disk-size = "+100 MiB"
+  ram = "256 MiB"
+  disk-size = "+200 MiB"
