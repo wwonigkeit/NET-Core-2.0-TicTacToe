@@ -31,6 +31,6 @@
   version = "21.0"
 
 [vm]
-  cpus = 1
+  cpus = 2
   ram = "256 MiB"
   disk-size = "+200 MiB"
