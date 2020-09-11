@@ -33,4 +33,4 @@
 [vm]
   cpus = 1
   ram = "512 MiB"
-  disk-size = "+150 MiB"
+  disk-size = "+175 MiB"
